@@ -4,6 +4,7 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
+  updateStock,
 } from "../controllers/productController.js";
 import authMiddleware from "../middleware/auth.js";
 

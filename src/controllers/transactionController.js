@@ -168,3 +168,11 @@ const customerVendorHistory = async (req, res) => {
     return res.status(500).json({ success: false, message: "Server error" });
   }
 };
+
+export {
+  listTransactions,
+  createTransaction,
+  adjustStockForProducts,
+  inventoryReport,
+  customerVendorHistory,
+};
