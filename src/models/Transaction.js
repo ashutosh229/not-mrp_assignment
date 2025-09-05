@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { productItemSchema } from "./ProductItem";
 
 const transactionSchema = new mongoose.Schema(
   {
