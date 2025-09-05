@@ -9,3 +9,5 @@ const connectDB = async (uri) => {
     return connector;
   } catch (error) {}
 };
+
+export default connectDB;
