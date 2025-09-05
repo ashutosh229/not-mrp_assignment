@@ -1,5 +1,6 @@
 import Contact from "../models/Contact.js";
 
+// http://localhost:5000/api/contacts
 const listContacts = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -19,6 +20,7 @@ const listContacts = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/contacts
 const createContact = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -39,6 +41,7 @@ const createContact = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/contacts/68bb05bb17bdda21ddcbefad
 const updateContact = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -61,6 +64,7 @@ const updateContact = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/contacts/68bb05bb17bdda21ddcbefad
 const deleteContact = async (req, res) => {
   try {
     const businessId = req.user.id;

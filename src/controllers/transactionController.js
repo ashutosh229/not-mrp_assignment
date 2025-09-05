@@ -2,6 +2,7 @@ import Transaction from "../models/Transaction.js";
 import Product from "../models/Product.js";
 import Contact from "../models/Contact.js";
 
+// http://localhost:5000/api/transactions
 const listTransactions = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -48,6 +49,7 @@ const adjustStockForProducts = async (businessId, products, type) => {
   }
 };
 
+// http://localhost:5000/api/transactions
 const createTransaction = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -129,6 +131,7 @@ const createTransaction = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/transactions/reports/inventory
 const inventoryReport = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -146,6 +149,7 @@ const inventoryReport = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/transactions/reports/history/<contactId>
 const customerVendorHistory = async (req, res) => {
   try {
     const businessId = req.user.id;

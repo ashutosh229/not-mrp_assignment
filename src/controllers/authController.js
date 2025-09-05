@@ -1,11 +1,17 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 import revokeToken from "../utils/revokeToken.js";
+import dotenv from "dotenv";
+
+dotenv.config({
+  path: ".env",
+});
 
 const JWT_SECRET = process.env.JWT_SECRET;
 const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN;
 
+// http://localhost:5000/api/auth/register
 const register = async (req, res) => {
   try {
     const { username, email, password, businessName } = req.body;
@@ -38,8 +44,10 @@ const register = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/auth/login
 const login = async (req, res) => {
   try {
+    console.log(JWT_SECRET);
     const { usernameOrEmail, password } = req.body;
     if (!usernameOrEmail || !password)
       return res
@@ -75,6 +83,7 @@ const login = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/auth/logout
 const logout = async (req, res) => {
   try {
     const authHeader = req.headers.authorization;

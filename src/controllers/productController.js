@@ -1,5 +1,6 @@
 import Product from "../models/Product.js";
 
+// http://localhost:5000/api/products
 const listProducts = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -19,6 +20,7 @@ const listProducts = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/products
 const createProduct = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -46,6 +48,7 @@ const createProduct = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/products/68bb01b66e1e42bd19cec61b
 const updateProduct = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -67,6 +70,7 @@ const updateProduct = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/products/68bb01b66e1e42bd19cec61b
 const deleteProduct = async (req, res) => {
   try {
     const businessId = req.user.id;
@@ -83,6 +87,7 @@ const deleteProduct = async (req, res) => {
   }
 };
 
+// http://localhost:5000/api/products/68bb023679315373360989a9/stock
 const updateStock = async (req, res) => {
   try {
     const businessId = req.user.id;
