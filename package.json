@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is the backend application for the round 1 assessment of not@mrp   ",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
