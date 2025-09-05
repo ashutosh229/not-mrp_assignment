@@ -1,10 +1,10 @@
 import express from "express";
 import morgan from "morgan";
 import cors from "cors";
-import authRouter from "./routes/authRoutes";
-import productRouter from "./routes/productRoutes";
-import contactRouter from "./routes/contactRoutes";
-import transactionRouter from "./routes/transactionRoutes";
+import authRouter from "./routes/authRoutes.js";
+import productRouter from "./routes/productRoutes.js";
+import contactRouter from "./routes/contactRoutes.js";
+import transactionRouter from "./routes/transactionRoutes.js";
 
 const app = express();
 

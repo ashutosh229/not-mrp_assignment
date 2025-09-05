@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
-import connectDB from "../config/db";
-import User from "../models/User";
-import Product from "../models/Product";
-import Contact from "../models/Contact";
-import bcrypt from "bcrypt";
+import connectDB from "../config/db.js";
+import User from "../models/User.js";
+import Product from "../models/Product.js";
+import Contact from "../models/Contact.js";
+import bcrypt from "bcryptjs";
 
 dotenv.config({
   path: ".env",

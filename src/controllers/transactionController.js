@@ -1,6 +1,6 @@
-import Transaction from "../models/Transaction";
-import Product from "../models/Product";
-import Contact from "../models/Contact";
+import Transaction from "../models/Transaction.js";
+import Product from "../models/Product.js";
+import Contact from "../models/Contact.js";
 
 const listTransactions = async (req, res) => {
   try {

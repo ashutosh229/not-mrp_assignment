@@ -4,8 +4,8 @@ import {
   customerVendorHistory,
   listTransactions,
   createTransaction,
-} from "../controllers/transactionController";
-import authMiddleware from "../middleware/auth";
+} from "../controllers/transactionController.js";
+import authMiddleware from "../middleware/auth.js";
 
 const router = express.Router();
 

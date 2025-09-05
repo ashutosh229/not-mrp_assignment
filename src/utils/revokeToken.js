@@ -1,4 +1,4 @@
-import { tokenBlacklist } from "../middleware/auth";
+import { tokenBlacklist } from "../middleware/auth.js";
 
 const revokeToken = (token) => {
   tokenBlacklist.add(token);

@@ -4,8 +4,8 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
-} from "../controllers/productController";
-import authMiddleware from "../middleware/auth";
+} from "../controllers/productController.js";
+import authMiddleware from "../middleware/auth.js";
 
 const router = express.Router();
 
