@@ -101,7 +101,6 @@ Developed by **Ashutosh Kumar Jha**
 📧 Email: ashutoshj@iitbhilai.ac.in 
 <br>
 🔗 GitHub: [your-github-username](https://github.com/ashutosh229)
-<br>  
 🔗 LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/ashutosh-kumar-jha-601098280)  
 
 
