@@ -47,7 +47,6 @@ const register = async (req, res) => {
 // http://localhost:5000/api/auth/login
 const login = async (req, res) => {
   try {
-    console.log(JWT_SECRET);
     const { usernameOrEmail, password } = req.body;
     if (!usernameOrEmail || !password)
       return res
