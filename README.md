@@ -52,7 +52,7 @@ This is the backend for the **Inventory & Billing Management System** built with
 ## 📂 Postman Collection
 You can test all API endpoints using the Postman collection below:  
 
-👉 [Download Postman Collection](https://example.com/postman-collection.json)
+👉 [Download Postman Collection](https://web.postman.co/workspace/My-Workspace~062d3fe8-63fc-4463-84a0-354b5620dc80/collection/35021932-03eb3b2a-31e9-45c6-8c5a-988b8fb5cd89?action=share&source=copy-link&creator=35021932)
 
 ---
 
@@ -99,7 +99,9 @@ npm run dev --debug
 
 Developed by **Ashutosh Kumar Jha**  
 📧 Email: ashutoshj@iitbhilai.ac.in 
-🔗 GitHub: [your-github-username](https://github.com/ashutosh229)  
+<br>
+🔗 GitHub: [your-github-username](https://github.com/ashutosh229)
+<br>  
 🔗 LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/ashutosh-kumar-jha-601098280)  
 
 
